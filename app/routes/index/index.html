@@ -1,0 +1,10 @@
+<div ng-if="!vm.show">
+    ...Loading
+</div>
+<div ng-if="vm.show">
+    <ul ng-repeat="game in vm.games">
+        <li>
+            <item data="game"></item>
+        </li>
+    </ul>
+</div>
